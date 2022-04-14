@@ -19,12 +19,15 @@ body {
 
 .heading h1 {
     display: flex;
-    font-size: 150px;
+    font-size: 270px;
     font-family: 'Ubuntu', sans-serif;
-    ;
+    margin-top: -20px;
+    margin-left: 30px;
 }
 
 h1 sup {
+    margin-top: 60px;
+    /* margin-left: 8px; */
     font-weight: 300;
     font-size: 60px;
     margin-left: 10px;
