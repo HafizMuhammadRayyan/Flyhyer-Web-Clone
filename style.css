@@ -1,62 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:wght@300;700&display=swap');
 
-body {
-    background-image: url(images/bg\ img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg\ img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
 .heading {
-    display: flex;
-    justify-content: center;
     position: absolute;
-    /* border: 2px solid black; */
 }
 
 .heading h1 {
-    display: flex;
-    font-size: 270px;
+    font-size: 20vw;
     font-family: 'Ubuntu', sans-serif;
-    margin-top: -20px;
-    margin-left: 30px;
+    margin-top: -5%;
+    margin-left: 5%;
 }
 
-h1 sup {
-    margin-top: 60px;
-    /* margin-left: 8px; */
+span {
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    font-size: 60px;
-    margin-left: 10px;
+    font-size: 6vw;
+    margin-left: 48%;
+    margin-top: -5%;
 }
 
-.nav {
+.navbar {
     display: flex;
     width: 100%;
     height: 55px;
     justify-content: right;
-    /* border: 1px solid black; */
 }
 
-.nav ul {
+.navbar ul {
     display: flex;
-    margin-right: 110px;
-    margin-top: 30px;
+    margin-right: 5%;
+    margin-top: -4%
 }
 
-nav li {
+.navbar ul li {
     list-style-type: none;
     margin: 9px;
     padding-left: 20px;
 }
 
-.nav a {
+.navbar a {
     text-decoration: none;
     color: #000D10;
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
 }
